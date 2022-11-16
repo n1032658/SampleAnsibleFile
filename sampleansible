@@ -267,4 +267,5 @@ ANSIBLE FILE MODULE
 
       when: inventory_hostname == "stapp03"
       
-      
+      ----
+      ansible-playbook -i inventory playbook.yml
